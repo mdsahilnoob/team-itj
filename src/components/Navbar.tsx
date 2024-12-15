@@ -21,48 +21,28 @@ function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
     >
       <Menu setActive={setActive}>
-        <MenuItem setActive={setActive} active={active} item="Services">
+        <MenuItem setActive={setActive} active={active} item="AboutUs">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
+            <HoveredLink href="/about">Web Development</HoveredLink>
+            <HoveredLink href="/about">Interface Design</HoveredLink>
+            <HoveredLink href="/about">Search Engine Optimization</HoveredLink>
+            <HoveredLink href="/about">Branding</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Products">
+        <MenuItem setActive={setActive} active={active} item="Join Our team">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
-            <ProductItem
-              title="Algochurn"
-            //   href="https://algochurn.com"
-            //   src="https://assets.aceternity.com/demos/algochurn.webp"
-              description="Prepare for tech interviews like never before."
-            />
-            <ProductItem
-              title="Tailwind Master Kit"
-            //   href="https://tailwindmasterkit.com"
-            //   src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
-              description="Production ready Tailwind css components for your next project"
-            />
-            <ProductItem
-              title="Moonbeam"
-            //   href="https://gomoonbeam.com"
-            //   src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
-              description="Never write from scratch again. Go from idea to blog in minutes."
-            />
-            <ProductItem
-              title="Rogue"
-            //   href="https://userogue.com"
-            //   src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
-              description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
-            />
+            <HoveredLink href="/signin">Ui/Ux</HoveredLink>
+            <HoveredLink href="/signin">Frontend</HoveredLink>
+            <HoveredLink href="/signin">Backend</HoveredLink>
+            <HoveredLink href="/signin">Cloud</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Pricing">
+        <MenuItem setActive={setActive} active={active} item="Contacts">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
+            <HoveredLink href="/contacts">Lead</HoveredLink>
+            <HoveredLink href="/contact">Vice Lead</HoveredLink>
+            <HoveredLink href="/contact">Domain Lead</HoveredLink>
+            <HoveredLink href="/contact">Members</HoveredLink>
           </div>
         </MenuItem>
       </Menu>
