@@ -1,3 +1,4 @@
+import { AnimatedTestimonialsDemo } from "@/components/AnimatedTestimonials";
 import { GlowingStarsBackgroundCardPreview } from "@/components/Cards";
 import { HeroHighlightDemo } from "@/components/HeroHighlight";
 import { CardStackDemo } from "@/components/MovingCards";
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroHighlightDemo />
       <GlowingStarsBackgroundCardPreview />
       <CardStackDemo />
+      <AnimatedTestimonialsDemo />
     </main>
   );
 }
