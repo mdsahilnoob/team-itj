@@ -5,37 +5,37 @@ export function AnimatedTestimonialsDemo() {
   const testimonials = [
     {
       quote:
-        "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
-      name: "Sarah Chen",
-      designation: "Product Manager at TechFlow",
+        "Team ITJ has been a fantastic platform for me to learn and grow as a tech enthusiast.",
+      name: "Vedant Mishra",
+      designation: "Tech Team",
       src: "/images/backdrop_00.jpg",
     },
     {
       quote:
-        "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
-      name: "Michael Rodriguez",
-      designation: "CTO at InnovateSphere",
+        "I've gained invaluable experience and knowledge through my involvement in Team ITJ's projects.",
+      name: "Prashi Rain",
+      designation: "Tech Team",
       src: "/images/backdrop_02.jpg",
     },
     {
       quote:
-        "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
-      name: "Emily Watson",
-      designation: "Operations Director at CloudScale",
+        "Team ITJ has fostered a strong sense of community among its members, making it a truly enjoyable experience.",
+      name: "Nilesh Jain",
+      designation: "Marketing & Finance Team",
       src: "/images/backdrop_04.jpg",
     },
     {
       quote:
-        "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
-      name: "James Kim",
-      designation: "Engineering Lead at DataPro",
+        "The supportive and encouraging atmosphere in Team ITJ has boosted my confidence and motivated me to strive for excellence.",
+      name: "Simran Rai",
+      designation: "Digital Team",
       src: "/images/backdrop_06.jpg",
     },
     {
       quote:
-        "The scalability and performance have been game-changing for our organization. Highly recommend to any growing business.",
-      name: "Lisa Thompson",
-      designation: "VP of Technology at FutureNet",
+        "The opportunities to work on real-world projects have made my time in Team ITJ highly rewarding.",
+      name: "Suyash Kumar Laur",
+      designation: "Software Team",
       src: "/images/backdrop_01.jpg",
     },
   ];
