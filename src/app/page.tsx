@@ -1,4 +1,5 @@
 import { AnimatedTestimonialsDemo } from "@/components/AnimatedTestimonials";
+import ButtonBot from "@/components/ButtonBot";
 import { GlowingStarsBackgroundCardPreview } from "@/components/Cards";
 import { HeroHighlightDemo } from "@/components/HeroHighlight";
 import { CardStackDemo } from "@/components/MovingCards";
@@ -13,6 +14,7 @@ export default function Home() {
       <GlowingStarsBackgroundCardPreview />
       <CardStackDemo />
       <AnimatedTestimonialsDemo />
+      <ButtonBot />
     </main>
   );
 }
