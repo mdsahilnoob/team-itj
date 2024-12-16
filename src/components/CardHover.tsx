@@ -18,12 +18,13 @@ export const projects = [
     title: "Celesta 2024",
     description:
       "Our participation in Celesta, IIT Patna's acclaimed techfest, provided us with a unique platform to explore cutting-edge technology and creativity.",
-    link: "https://teamitj.tech/",
+    link: "",
   },
   {
     title: "KIIT Fest 7.0",
     description:
       "Our participation in KIIT Fest 7.0, the renowned fest of KIIT University, was a memorable blend of learning, competition, and inspiration.",
-    link: "https://teamitj.tech/",
+    link: "https://github.com/mdsahilnoob/team-itj",
   },
 ];
+

@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
 
     },
   ],
-    domains: ['images.unsplash.com', 'res.cloudinary.com' ,'teamitj.tech','assets.aceternity.com'],
+    domains: ['images.unsplash.com', 'res.cloudinary.com','assets.aceternity.com'],
   }
 };
 
