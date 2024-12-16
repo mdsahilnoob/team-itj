@@ -6,14 +6,14 @@ export function AnimatedTestimonialsDemo() {
     {
       quote:
         "Team ITJ has been a fantastic platform for me to learn and grow as a tech enthusiast.",
-      name: "Vedant Mishra",
+      name: "Prashi Rain",
       designation: "Tech Team",
       src: "/images/backdrop_00.jpg",
     },
     {
       quote:
         "I've gained invaluable experience and knowledge through my involvement in Team ITJ's projects.",
-      name: "Prashi Rain",
+      name: "Vedant Mishra",
       designation: "Tech Team",
       src: "/images/backdrop_02.jpg",
     },
