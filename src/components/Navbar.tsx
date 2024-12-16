@@ -31,10 +31,10 @@ function Navbar({ className }: { className?: string }) {
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Join Our team">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
-            <HoveredLink href="/signin">Ui/Ux</HoveredLink>
-            <HoveredLink href="/signin">Frontend</HoveredLink>
-            <HoveredLink href="/signin">Backend</HoveredLink>
-            <HoveredLink href="/signin">Cloud</HoveredLink>
+            <HoveredLink href="/signup">Ui/Ux</HoveredLink>
+            <HoveredLink href="/signup">Frontend</HoveredLink>
+            <HoveredLink href="/signup">Backend</HoveredLink>
+            <HoveredLink href="/signup">Cloud</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Contacts">
