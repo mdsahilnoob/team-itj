@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-let interval: any;
+let interval: ReturnType<typeof setInterval>;
 
 type Card = {
   id: number;
@@ -72,3 +72,6 @@ export const CardStack = ({
     </div>
   );
 };
+
+
+//maybe hydration error in this file
